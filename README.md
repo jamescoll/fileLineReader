@@ -70,8 +70,8 @@ This system uses the Play framework. For a quote on its performance:
 
 https://www.lightbend.com/blog/why-is-play-framework-so-fast
 
-○ How long did you spend on this exercise? If you had unlimited more time to
-spend on this, how would you spend it and how would you prioritize each item?
+<b> How long did you spend on this exercise? If you had unlimited more time to
+spend on this, how would you spend it and how would you prioritize each item? </b>
 
 About 30 minutes coding and about 45 minutes documenting and refactoring.
 
