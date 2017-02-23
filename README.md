@@ -10,3 +10,5 @@ Shell scripts to automate this process will follow. Until they are available act
 
 Instructions on how to install play/activator for your platform can be found at https://www.playframework.com/
 
+Note that the fileLineServer is a singleton and reads the file into memory (50x Works of Shakespeare) when the first request is made.
+This has the effect that the first request may lag but all subsequent requests take advantage of the scaling and non-blocking features of play.
