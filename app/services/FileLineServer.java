@@ -37,14 +37,14 @@ public class FileLineServer {
             }
 
         } catch (FileNotFoundException e) {
-            Logger.warn("File Not Found");
+            Logger.warn("FileLineServer - File Not Found");
             e.printStackTrace();
         } catch (IOException e) {
-            Logger.warn("IO Exception");
+            Logger.warn("FileLineServer - IO Exception");
             e.printStackTrace();
         }
 
-        Logger.info("File is in memory as an array list containing " + lines.size() + " entries.");
+        Logger.info("FileLineServer - File is in memory as an array list containing " + lines.size() + " entries.");
     }
 
     public int retrieveFileLineSize(){
