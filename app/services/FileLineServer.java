@@ -27,7 +27,7 @@ public class FileLineServer {
 
         Logger.trace("FileLineServer - Entering readFile Method");
 
-        String file = "fileLarge.txt";
+        String file = "file.txt";
         String line = "";
 
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
